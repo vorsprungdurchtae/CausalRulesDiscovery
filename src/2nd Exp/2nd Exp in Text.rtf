@@ -1,0 +1,703 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15400\viewh19180\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 =================Start============================================\
+\
+Stable cols: ['ApplicationType', 'binned_CreditScore', 'LoanGoal', 'binned_RequestedAmount']\
+Flexible_cols: ['binned_FirstWithdrawalAmount', 'binned_MonthlyCost', 'binned_NoOfTerms', 'MatchedRequest']\
+\
+The number of discovered rules are: 18\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (ApplicationType: new credit) \u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499) ] \u8658  [Selected: 0 \u8594  1] with support: 0.13870936932921588, confidence: 0.3599875806078373 and uplift: 0.04834610520529714.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (ApplicationType: new credit) \u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499)  \u8743  (binned_NoOfTerms: 6-48 \u8594  97-120) ] \u8658  [Selected: 0 \u8594  1] with support: 0.03463754735602178, confidence: 0.4307088606717347 and uplift: 0.016797929581416432.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (ApplicationType: new credit) \u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499)  \u8743  (binned_NoOfTerms: 6-48 \u8594  49-60) ] \u8658  [Selected: 0 \u8594  1] with support: 0.030053166088313012, confidence: 0.36434209998875483 and uplift: 0.011271175666580383.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (ApplicationType: new credit) \u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499)  \u8743  (binned_NoOfTerms: 49-60 \u8594  97-120) ] \u8658  [Selected: 0 \u8594  1] with support: 0.036006494540129254, confidence: 0.4343431897743208 and uplift: 0.01761698931781823.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (ApplicationType: new credit) \u8743  (binned_FirstWithdrawalAmount: 9896-75000 \u8594  0-7499)  \u8743  (binned_MonthlyCost: 388+ \u8594  40-148) ] \u8658  [Selected: 0 \u8594  1] with support: 0.030976409538059916, confidence: 0.3103812724389707 and uplift: 0.006406651945569868.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (ApplicationType: new credit) \u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499)  \u8743  (binned_NoOfTerms: 120+ \u8594  97-120) ] \u8658  [Selected: 0 \u8594  1] with support: 0.03387348381140365, confidence: 0.4133669446060371 and uplift: 0.01569547376128711.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (ApplicationType: new credit) \u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499)  \u8743  (binned_NoOfTerms: 120+ \u8594  49-60) ] \u8658  [Selected: 0 \u8594  1] with support: 0.030053166088313012, confidence: 0.34967235275543623 and uplift: 0.01006388515452768.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (binned_NoOfTerms: 6-48 \u8594  97-120) ] \u8658  [Selected: 0 \u8594  1] with support: 0.09009582630288752, confidence: 0.306463531861081 and uplift: 0.0175096179416262.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (binned_NoOfTerms: 6-48 \u8594  61-96) ] \u8658  [Selected: 0 \u8594  1] with support: 0.08700773614338926, confidence: 0.3122818573510749 and uplift: 0.019232810632956482.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (binned_NoOfTerms: 6-48 \u8594  120+) ] \u8658  [Selected: 0 \u8594  1] with support: 0.08038585209003216, confidence: 0.347037689776789 and uplift: 0.029526321458380175.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499)  \u8743  (binned_NoOfTerms: 6-48 \u8594  97-120) ] \u8658  [Selected: 0 \u8594  1] with support: 0.03591098659705199, confidence: 0.41838714042975506 and uplift: 0.017105661585847615.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499)  \u8743  (binned_NoOfTerms: 6-48 \u8594  49-60) ] \u8658  [Selected: 0 \u8594  1] with support: 0.032122504854987105, confidence: 0.3598339799784508 and uplift: 0.011619656268233254.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499)  \u8743  (binned_NoOfTerms: 6-48 \u8594  61-96) ] \u8658  [Selected: 0 \u8594  1] with support: 0.03247270064627041, confidence: 0.43104565736186096 and uplift: 0.018291672565739943.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499)  \u8743  (binned_NoOfTerms: 49-60 \u8594  97-120) ] \u8658  [Selected: 0 \u8594  1] with support: 0.03769380153449429, confidence: 0.4144535706929391 and uplift: 0.018157702657461264.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499)  \u8743  (binned_NoOfTerms: 49-60 \u8594  61-96) ] \u8658  [Selected: 0 \u8594  1] with support: 0.03247270064627041, confidence: 0.4269930754606989 and uplift: 0.019442005436455544.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (binned_RequestedAmount: 0-5000) \u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499) ] \u8658  [Selected: 0 \u8594  1] with support: 0.036547706217567096, confidence: 0.30810713290510655 and uplift: 0.007280365475488083.\
+\
+Rule: r = [(binned_CreditScore: low) \uc0\u8743  (binned_RequestedAmount: 5001-10000) \u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499) ] \u8658  [Selected: 0 \u8594  1] with support: 0.03845786507911241, confidence: 0.3380793536320956 and uplift: 0.015842763601436452.\
+\
+Rule: r = [(LoanGoal: existing loan takeover) \uc0\u8743  (binned_CreditScore: low) \u8743  (ApplicationType: new credit) \u8743  (binned_FirstWithdrawalAmount: 7500-9895 \u8594  0-7499) ] \u8658  [Selected: 0 \u8594  1] with support: 0.03196332494985833, confidence: 0.37780391507343564 and uplift: 0.013030426298826558.\
+\
+max supp: 0.13870936932921588\
+max conf: 0.4343431897743208\
+max uplift: 0.04834610520529714\
+===============================Finish================================\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 1\
+\
+[[[['binned_CreditScore', ('low',)], ['ApplicationType', ('new credit',)]], [['binned_FirstWithdrawalAmount', ('7500-9895', '0-7499')]], ['Selected', ['0', '1']]], [0.14685938047180924, 0.13870936932921588, 0.13870936932921588], [0.6077733860342556, 0.592305600870038, 0.3599875806078373], 0.04834610520529714]\
+index: 0\
+(22950, 38)\
+new credit >= 0.1?\
+yes -> MonthlyCost >= 150.0?\
+		yes -> CreditScore >= 922.0?\
+				yes -> \{'1': 1.0, '0': 1.0\}\
+				no  -> MonthlyCost >= 200.0?\
+						yes -> \{'1': 0.662324, '0': 0.443041\}\
+						no  -> \{'1': 0.599827, '0': 0.427826\}\
+		no  -> CreditScore >= 925.0?\
+				yes -> \{'1': 1.0, '0': 1.0\}\
+				no  -> MonthlyCost >= 110.17199999999998?\
+						yes -> \{'1': 0.526658, '0': 0.422969\}\
+						no  -> \{'1': 0.597637, '0': 0.349033\}\
+no  -> CreditScore >= 892.5?\
+		yes -> unknown >= 0.1?\
+				yes -> \{'1': 0.987013, '0': 0.724806\}\
+				no  -> MonthlyCost >= 250.0?\
+						yes -> \{'1': 1.0, '0': 0.739606\}\
+						no  -> \{'1': 0.988189, '0': 0.645495\}\
+		no  -> \{'1': 1.0, '0': 1.0\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 2\
+[[[['binned_CreditScore', ('low',)], ['ApplicationType', ('new credit',)]], [['binned_FirstWithdrawalAmount', ('7500-9895', '0-7499')], ['binned_NoOfTerms', ('120+', '49-60')]], ['Selected', ['0', '1']]], [0.03387348381140365, 0.030053166088313012, 0.030053166088313012], [0.6189645142524723, 0.5649311789347696, 0.34967235275543623], 0.01006388515452768]\
+index: 1\
+(9322, 38)\
+FirstWithdrawalAmount >= 6214.999999999996?\
+yes -> CreditScore >= 961.0?\
+		yes -> \{'1': 1.0, '0': 1.0\}\
+		no  -> CreditScore >= 899.0?\
+				yes -> NumberOfOffers >= 1.7000000000000002?\
+						yes -> \{'1': 0.333333, '0': 0.248761\}\
+						no  -> \{'1': 0.44697, '0': 0.503748\}\
+				no  -> \{'1': 1.0, '0': 1.0\}\
+no  -> CreditScore >= 812.0?\
+		yes -> NumberOfOffers >= 1.8?\
+				yes -> \{'1': 0.463918, '0': 0.887755\}\
+				no  -> CreditScore >= 899.0?\
+						yes -> \{'1': 0.659936, '0': 0.988399\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+		no  -> \{'1': 1.0, '0': 1.0\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 3\
+[[[['binned_CreditScore', ('low',)], ['ApplicationType', ('new credit',)]], [['binned_FirstWithdrawalAmount', ('7500-9895', '0-7499')], ['binned_NoOfTerms', ('120+', '97-120')]], ['Selected', ['0', '1']]], [0.03387348381140365, 0.03635669033141256, 0.03387348381140365], [0.6189645142524723, 0.6678362573099416, 0.4133669446060371], 0.01569547376128711]\
+index: 2\
+(8146, 38)\
+FirstWithdrawalAmount >= 5026.33?\
+yes -> MonthlyCost >= 80.0?\
+		yes -> NumberOfOffers >= 1.8?\
+				yes -> \{'1': 0.684685, '0': 0.53998\}\
+				no  -> MonthlyCost >= 150.0?\
+						yes -> \{'1': 0.855769, '0': 0.696093\}\
+						no  -> \{'1': 0.72, '0': 0.632987\}\
+		no  -> \{'1': 0.575, '0': 0.433428\}\
+no  -> CreditScore >= 843.8?\
+		yes -> CreditScore >= 899.0?\
+				yes -> CreditScore >= 904.0?\
+						yes -> \{'1': 1.0, '0': 1.0\}\
+						no  -> \{'1': 0.411168, '0': 0.956386\}\
+				no  -> \{'1': 1.0, '0': 1.0\}\
+		no  -> \{'1': 1.0, '0': 1.0\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 4\
+[[[['binned_CreditScore', ('low',)]], [['binned_FirstWithdrawalAmount', ('7500-9895', '0-7499')], ['binned_NoOfTerms', ('49-60', '61-96')]], ['Selected', ['0', '1']]], [0.03852153704116392, 0.03247270064627041, 0.03247270064627041], [0.6132792701469842, 0.6962457337883959, 0.4269930754606989], 0.019442005436455544]\
+index: 3\
+(9255, 38)\
+MonthlyCost >= 97.4?\
+yes -> CreditScore >= 909.0?\
+		yes -> FirstWithdrawalAmount >= 5000.0?\
+				yes -> CreditScore >= 977.0?\
+						yes -> \{'1': 1.0, '0': 1.0\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+				no  -> \{'1': 1.0, '0': 1.0\}\
+		no  -> FirstWithdrawalAmount >= 597.3000000000001?\
+				yes -> NumberOfOffers >= 1.8?\
+						yes -> \{'1': 0.573333, '0': 0.340759\}\
+						no  -> \{'1': 0.779688, '0': 0.545808\}\
+				no  -> \{'1': 0.671958, '0': 0.659794\}\
+no  -> \{'1': 0.671875, '0': 0.307692\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 5\
+[[[['binned_CreditScore', ('low',)], ['ApplicationType', ('new credit',)]], [['binned_FirstWithdrawalAmount', ('7500-9895', '0-7499')], ['binned_NoOfTerms', ('49-60', '97-120')]], ['Selected', ['0', '1']]], [0.036006494540129254, 0.03635669033141256, 0.036006494540129254], [0.6503737780333525, 0.6678362573099416, 0.4343431897743208], 0.01761698931781823]\
+index: 4\
+(8470, 38)\
+MonthlyCost >= 97.4?\
+yes -> CreditScore >= 970.0?\
+		yes -> \{'1': 1.0, '0': 1.0\}\
+		no  -> existing loan takeover >= 0.1?\
+				yes -> NumberOfOffers >= 1.8?\
+						yes -> \{'1': 0.662281, '0': 0.4375\}\
+						no  -> \{'1': 0.793839, '0': 0.627645\}\
+				no  -> home improvement >= 0.1?\
+						yes -> \{'1': 0.756345, '0': 0.600877\}\
+						no  -> \{'1': 0.81104, '0': 0.5326\}\
+no  -> \{'1': 0.603627, '0': 0.552941\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 6\
+[[[['binned_CreditScore', ('low',)], ['ApplicationType', ('new credit',)]], [['binned_FirstWithdrawalAmount', ('7500-9895', '0-7499')], ['binned_NoOfTerms', ('6-48', '49-60')]], ['Selected', ['0', '1']]], [0.03463754735602178, 0.030053166088313012, 0.030053166088313012], [0.6449318316538234, 0.5649311789347696, 0.36434209998875483], 0.011271175666580383]\
+index: 5\
+(10372, 38)\
+MonthlyCost >= 136.35?\
+yes -> CreditScore >= 921.0?\
+		yes -> FirstWithdrawalAmount >= 5000.0?\
+				yes -> \{'1': 1.0, '0': 1.0\}\
+				no  -> \{'1': 1.0, '0': 1.0\}\
+		no  -> MonthlyCost >= 149.49?\
+				yes -> existing loan takeover >= 0.1?\
+						yes -> \{'1': 0.661972, '0': 0.480712\}\
+						no  -> \{'1': 0.747774, '0': 0.458106\}\
+				no  -> \{'1': 0.586466, '0': 0.380597\}\
+no  -> MonthlyCost >= 118.15?\
+		yes -> \{'1': 0.663265, '0': 0.575188\}\
+		no  -> CreditScore >= 916.0?\
+				yes -> \{'1': 1.0, '0': 1.0\}\
+				no  -> car >= 0.1?\
+						yes -> \{'1': 0.478405, '0': 0.25\}\
+						no  -> \{'1': 0.531328, '0': 0.263682\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 7\
+[[[['binned_CreditScore', ('low',)]], [['binned_FirstWithdrawalAmount', ('7500-9895', '0-7499')], ['binned_NoOfTerms', ('6-48', '61-96')]], ['Selected', ['0', '1']]], [0.03591098659705199, 0.03247270064627041, 0.03247270064627041], [0.6190998902305159, 0.6962457337883959, 0.43104565736186096], 0.018291672565739943]\
+index: 6\
+(9981, 38)\
+MonthlyCost >= 150.0?\
+yes -> existing loan takeover >= 0.1?\
+		yes -> CreditScore >= 901.0?\
+				yes -> \{'1': 1.0, '0': 1.0\}\
+				no  -> NumberOfOffers >= 1.7000000000000002?\
+						yes -> \{'1': 0.613636, '0': 0.416667\}\
+						no  -> \{'1': 0.704348, '0': 0.522442\}\
+		no  -> CreditScore >= 914.0?\
+				yes -> CreditScore >= 963.0?\
+						yes -> \{'1': 1.0, '0': 1.0\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+				no  -> unknown >= 0.1?\
+						yes -> \{'1': 0.754717, '0': 0.564516\}\
+						no  -> \{'1': 0.843137, '0': 0.488147\}\
+no  -> MonthlyCost >= 118.15?\
+		yes -> \{'1': 0.649573, '0': 0.553691\}\
+		no  -> MonthlyCost >= 100.0?\
+				yes -> \{'1': 0.717647, '0': 0.425287\}\
+				no  -> \{'1': 0.70283, '0': 0.349398\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 8\
+[[[['binned_CreditScore', ('low',)], ['ApplicationType', ('new credit',)]], [['binned_FirstWithdrawalAmount', ('7500-9895', '0-7499')], ['binned_NoOfTerms', ('6-48', '97-120')]], ['Selected', ['0', '1']]], [0.03463754735602178, 0.03635669033141256, 0.03463754735602178], [0.6449318316538234, 0.6678362573099416, 0.4307088606717347], 0.016797929581416432]\
+index: 7\
+(9196, 38)\
+MonthlyCost >= 106.46?\
+yes -> CreditScore >= 983.0?\
+		yes -> \{'1': 1.0, '0': 1.0\}\
+		no  -> car >= 0.1?\
+				yes -> CreditScore >= 899.0?\
+						yes -> \{'1': 0.76, '0': 0.352296\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+				no  -> NumberOfOffers >= 1.9?\
+						yes -> \{'1': 0.686842, '0': 0.488372\}\
+						no  -> \{'1': 0.805147, '0': 0.587895\}\
+no  -> \{'1': 0.607692, '0': 0.566176\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 9\
+[[[['binned_CreditScore', ('low',)], ['ApplicationType', ('new credit',)]], [['binned_FirstWithdrawalAmount', ('9896-75000', '0-7499')], ['binned_MonthlyCost', ('388+', '40-148')]], ['Selected', ['0', '1']]], [0.030976409538059916, 0.049091082741714684, 0.030976409538059916], [0.552526973310619, 0.5617486338797815, 0.3103812724389707], 0.006406651945569868]\
+index: 8\
+(7982, 38)\
+MonthlyCost >= 150.0?\
+yes -> CreditScore >= 899.0?\
+		yes -> CreditScore >= 916.0?\
+				yes -> \{'1': 1.0, '0': 1.0\}\
+				no  -> \{'1': 0.990385, '0': 0.379018\}\
+		no  -> \{'1': 1.0, '0': 1.0\}\
+no  -> NumberOfOffers >= 1.7000000000000002?\
+		yes -> \{'1': 0.539474, '0': 0.56\}\
+		no  -> \{'1': 0.720444, '0': 0.672269\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 10\
+[[[['binned_CreditScore', ('low',)]], [['binned_NoOfTerms', ('6-48', '120+')]], ['Selected', ['0', '1']]], [0.09009582630288752, 0.08038585209003216, 0.08038585209003216], [0.5515494055739621, 0.6292050834786942, 0.347037689776789], 0.029526321458380175]\
+index: 9\
+(11639, 38)\
+FirstWithdrawalAmount >= 8304.0?\
+yes -> FirstWithdrawalAmount >= 10000.0?\
+		yes -> MonthlyCost >= 249.58?\
+				yes -> FirstWithdrawalAmount >= 20000.0?\
+						yes -> \{'1': 0.833333, '0': 0.584314\}\
+						no  -> \{'1': 0.965517, '0': 0.627103\}\
+				no  -> \{'1': 0.821596, '0': 0.561151\}\
+		no  -> CreditScore >= 941.7000000000003?\
+				yes -> \{'1': 1.0, '0': 1.0\}\
+				no  -> CreditScore >= 899.0?\
+						yes -> \{'1': 0.451056, '0': 0.279481\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+no  -> CreditScore >= 806.0?\
+		yes -> CreditScore >= 943.0?\
+				yes -> \{'1': 1.0, '0': 1.0\}\
+				no  -> CreditScore >= 899.0?\
+						yes -> \{'1': 0.943107, '0': 0.374776\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+		no  -> \{'1': 1.0, '0': 1.0\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 11\
+[[[['binned_CreditScore', ('low',)]], [['binned_NoOfTerms', ('6-48', '61-96')]], ['Selected', ['0', '1']]], [0.09009582630288752, 0.08700773614338926, 0.08700773614338926], [0.5515494055739621, 0.5661901802361715, 0.3122818573510749], 0.019232810632956482]\
+index: 10\
+(12988, 38)\
+FirstWithdrawalAmount >= 8304.0?\
+yes -> MonthlyCost >= 225.0?\
+		yes -> CreditScore >= 978.0?\
+				yes -> MonthlyCost >= 318.93?\
+						yes -> \{'1': 1.0, '0': 1.0\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+				no  -> CreditScore >= 825.0?\
+						yes -> \{'1': 0.564881, '0': 0.446512\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+		no  -> CreditScore >= 911.6000000000001?\
+				yes -> \{'1': 1.0, '0': 1.0\}\
+				no  -> home improvement >= 0.1?\
+						yes -> \{'1': 0.489051, '0': 0.44\}\
+						no  -> \{'1': 0.452854, '0': 0.282609\}\
+no  -> CreditScore >= 926.0?\
+		yes -> FirstWithdrawalAmount >= 5000.0?\
+				yes -> MonthlyCost >= 199.14?\
+						yes -> \{'1': 1.0, '0': 1.0\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+				no  -> \{'1': 1.0, '0': 1.0\}\
+		no  -> MonthlyCost >= 149.86?\
+				yes -> FirstWithdrawalAmount >= 600.0?\
+						yes -> \{'1': 0.787586, '0': 0.506557\}\
+						no  -> \{'1': 0.674419, '0': 0.636364\}\
+				no  -> car >= 0.1?\
+						yes -> \{'1': 0.510638, '0': 0.448529\}\
+						no  -> \{'1': 0.634812, '0': 0.42029\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Action 12\
+[[[['binned_CreditScore', ('low',)]], [['binned_NoOfTerms', ('6-48', '97-120')]], ['Selected', ['0', '1']]], [0.09009582630288752, 0.09187864124032982, 0.09009582630288752], [0.5515494055739621, 0.555641124374278, 0.306463531861081], 0.0175096179416262]\
+index: 11\
+(13692, 38)\
+CreditScore >= 982.0?\
+yes -> FirstWithdrawalAmount >= 12000.0?\
+		yes -> \{'1': 1.0, '0': 1.0\}\
+		no  -> MonthlyCost >= 222.31?\
+				yes -> \{'1': 1.0, '0': 1.0\}\
+				no  -> \{'1': 1.0, '0': 1.0\}\
+no  -> FirstWithdrawalAmount >= 15000.0?\
+		yes -> CreditScore >= 899.0?\
+				yes -> CreditScore >= 922.0?\
+						yes -> \{'1': 1.0, '0': 1.0\}\
+						no  -> \{'1': 0.312958, '0': 0.321534\}\
+				no  -> CreditScore >= 841.0?\
+						yes -> \{'1': 1.0, '0': 1.0\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+		no  -> MonthlyCost >= 150.0?\
+				yes -> CreditScore >= 744.3?\
+						yes -> \{'1': 0.717162, '0': 0.496689\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+				no  -> CreditScore >= 899.0?\
+						yes -> \{'1': 0.438994, '0': 0.371429\}\
+						no  -> \{'1': 1.0, '0': 1.0\}\
+(causalml-py37) thetruetae@Taes-MacBook-Pro src % \
+}

@@ -1,0 +1,1189 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 =================Start============================================\
+\
+Stable cols: ['BinnedDuration', 'BinnedCompanion', 'Accomodation', 'Rating']\
+Flexible_cols: ['Upgrade', 'Reschedule', 'CancellationFee']\
+\
+The number of discovered rules are: 86\
+\
+Rule: r = [(BinnedDuration: 1-9) \uc0\u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07921735539815139, confidence: 0.2509954503786172 and uplift: 0.002784714522816284.\
+\
+Rule: r = [(BinnedDuration: 1-9) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03970396722040466, confidence: 0.2472147424647918 and uplift: 0.0007879467975706878.\
+\
+Rule: r = [(BinnedDuration: 1-9) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.039831019915509955, confidence: 0.2504892701856094 and uplift: 0.0012298744248887133.\
+\
+Rule: r = [(BinnedDuration: 1-9) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03938633548264143, confidence: 0.2515028720289887 and uplift: 0.0015561127890836232.\
+\
+Rule: r = [(BinnedDuration: 1-9) \uc0\u8743  (CancellationFee: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.0780421179684274, confidence: 0.24669042010223105 and uplift: 0.0012174919437908938.\
+\
+Rule: r = [(BinnedDuration: 1-9) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (CancellationFee: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03849696661690436, confidence: 0.24583907039446018 and uplift: 0.00044481691743069457.\
+\
+Rule: r = [(BinnedDuration: 1-9) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.039513388177746724, confidence: 0.25490962066301476 and uplift: 0.001999446539388973.\
+\
+Rule: r = [(BinnedDuration: 1-9) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (CancellationFee: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03954515135152305, confidence: 0.247526770112149 and uplift: 0.0007721309374013607.\
+\
+Rule: r = [(BinnedDuration: 20-28) \uc0\u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.06972016643903059, confidence: 0.25037739587541064 and uplift: 0.002362242189085678.\
+\
+Rule: r = [(BinnedDuration: 20-28) \uc0\u8743  (Reschedule: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.06968840326525426, confidence: 0.24565330218571113 and uplift: 0.0007801125587759417.\
+\
+Rule: r = [(BinnedDuration: 20-28) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03478067528507448, confidence: 0.2541593289708203 and uplift: 0.0016022237955519228.\
+\
+Rule: r = [(BinnedDuration: 20-28) \uc0\u8743  (Upgrade: 1 \u8594  0)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.035479465108153606, confidence: 0.24862684391646142 and uplift: 0.0008100336159044333.\
+\
+Rule: r = [(BinnedDuration: 20-28) \uc0\u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.06927548200616206, confidence: 0.2454879933030271 and uplift: 0.000728563206670918.\
+\
+Rule: r = [(BinnedDuration: 20-28) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.034240701330876984, confidence: 0.25209734529909145 and uplift: 0.0015499903378151728.\
+\
+Rule: r = [(BinnedDuration: 20-28) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03541593876060096, confidence: 0.2488183786715242 and uplift: 0.0007716216448407504.\
+\
+Rule: r = [(BinnedDuration: 10-19) \uc0\u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.06136645173585745, confidence: 0.250375396709688 and uplift: 0.0021614186608373553.\
+\
+Rule: r = [(BinnedDuration: 10-19) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.030429120477718133, confidence: 0.2523115042581116 and uplift: 0.0013200501789837754.\
+\
+Rule: r = [(BinnedDuration: 10-19) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.030937331258139314, confidence: 0.24453775710672168 and uplift: 0.00011795981599479338.\
+\
+Rule: r = [(BinnedDuration: 10-19) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.030969094431915638, confidence: 0.25257557340135106 and uplift: 0.001191861146840556.\
+\
+Rule: r = [(BinnedDuration: 10-19) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.030937331258139314, confidence: 0.2485350539045484 and uplift: 0.0008620648848235019.\
+\
+Rule: r = [(BinnedDuration: 10-19) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.032239621382968583, confidence: 0.24299998117009058 and uplift: -0.0001127822836985426.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07168948321316265, confidence: 0.2534737521103263 and uplift: 0.0031889799710936723.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Reschedule: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07251532573134707, confidence: 0.24315115815115815 and uplift: -0.000352024196479922.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03652764984277229, confidence: 0.2542042158802572 and uplift: 0.0014260379810445423.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Upgrade: 1 \u8594  0)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.036051202236127435, confidence: 0.24735558086358053 and uplift: 0.00048761575470231133.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07286472064288664, confidence: 0.2506411730755044 and uplift: 0.0021794707959777587.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.035638280977035225, confidence: 0.25981288273496317 and uplift: 0.0027054794075257946.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03668646571165391, confidence: 0.25000845093387786 and uplift: 0.0008985984790595009.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Reschedule: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07140361464917575, confidence: 0.24524580524580525 and uplift: 0.0003592762542036776.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03516183337039037, confidence: 0.2523360701833315 and uplift: 0.0017289369618821854.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (Upgrade: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.035225359717943015, confidence: 0.23926383417875813 and uplift: -0.0009125910873547735.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03617825493123273, confidence: 0.2512000207571158 and uplift: 0.0012749484613227904.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03722643966585141, confidence: 0.24180747576589606 and uplift: -0.00046611625268797724.\
+\
+Rule: r = [(Accomodation: hostel) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (CancellationFee: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03624178127878538, confidence: 0.2374269536391416 and uplift: -0.0013828731542640596.\
+\
+Rule: r = [(Accomodation: resort) \uc0\u8743  (Reschedule: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.06778261283867484, confidence: 0.2460302453179217 and uplift: 0.0009172344869213811.\
+\
+Rule: r = [(Accomodation: resort) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03344662198646889, confidence: 0.24514292920133135 and uplift: 0.00031588330617921684.\
+\
+Rule: r = [(Accomodation: resort) \uc0\u8743  (Upgrade: 1 \u8594  0)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03414541180954801, confidence: 0.24354597002713863 and uplift: -6.992136644873997e-05.\
+\
+Rule: r = [(Accomodation: resort) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03370072737667948, confidence: 0.2466544269572181 and uplift: 0.0005301578558898762.\
+\
+Rule: r = [(Accomodation: resort) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (CancellationFee: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.034335990852205955, confidence: 0.24691661963569142 and uplift: 0.0005971898195283945.\
+\
+Rule: r = [(Accomodation: resort) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03519359654416669, confidence: 0.2443858534227532 and uplift: 6.797391900473931e-05.\
+\
+Rule: r = [(Accomodation: hotel) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03525712289171934, confidence: 0.2500998420409501 and uplift: 0.0010446419190820871.\
+\
+Rule: r = [(Accomodation: hotel) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03478067528507448, confidence: 0.24895173994240585 and uplift: 0.0009698796881562194.\
+\
+Rule: r = [(Rating: low) \uc0\u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07032366674078074, confidence: 0.2480085631783332 and uplift: 0.0014097159501112316.\
+\
+Rule: r = [(Rating: low) \uc0\u8743  (Reschedule: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07054600895721501, confidence: 0.2465195268783687 and uplift: 0.0009064147384910404.\
+\
+Rule: r = [(Rating: low) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03544770193437728, confidence: 0.2513075030964883 and uplift: 0.0011731739288753998.\
+\
+Rule: r = [(Rating: low) \uc0\u8743  (Upgrade: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07083187752120192, confidence: 0.2457413711877795 and uplift: 0.0006437031117547676.\
+\
+Rule: r = [(Rating: low) \uc0\u8743  (Upgrade: 1 \u8594  0)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.0356065178032589, confidence: 0.2502580959288524 and uplift: 0.001031080551420864.\
+\
+Rule: r = [(Rating: low) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03557475462948258, confidence: 0.24778101693034402 and uplift: 0.0007742602729033515.\
+\
+Rule: r = [(Rating: low) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.034717148937521834, confidence: 0.24574325469813932 and uplift: 0.0003757906971546057.\
+\
+Rule: r = [(Rating: low) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.034971254327732425, confidence: 0.24522210514476495 and uplift: 0.00013367821780863737.\
+\
+Rule: r = [(Rating: low) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (Upgrade: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03525712289171934, confidence: 0.24361270119399273 and uplift: -0.00013209350471033582.\
+\
+Rule: r = [(Rating: middle) \uc0\u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.06927548200616206, confidence: 0.24665062757142633 and uplift: 0.0011757399534071122.\
+\
+Rule: r = [(Rating: middle) \uc0\u8743  (Reschedule: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.06997427182924118, confidence: 0.24638178960701243 and uplift: 0.0010760252564703532.\
+\
+Rule: r = [(Rating: middle) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03500301750150875, confidence: 0.25115706561597395 and uplift: 0.0011548031626680416.\
+\
+Rule: r = [(Rating: middle) \uc0\u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07105421973763619, confidence: 0.24994268616857582 and uplift: 0.002242994203377327.\
+\
+Rule: r = [(Rating: middle) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.035130070196614044, confidence: 0.2539790128254955 and uplift: 0.0017263957739103442.\
+\
+Rule: r = [(Rating: middle) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03567004415081155, confidence: 0.2525358772170711 and uplift: 0.0016613901177565393.\
+\
+Rule: r = [(Rating: middle) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.035384175586824634, confidence: 0.24728225509678367 and uplift: 0.000581199528694995.\
+\
+Rule: r = [(Rating: high) \uc0\u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07010132452434648, confidence: 0.2493019036331446 and uplift: 0.002094995597988869.\
+\
+Rule: r = [(Rating: high) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.035066543849061396, confidence: 0.25149670477774705 and uplift: 0.0013997592317142107.\
+\
+Rule: r = [(Rating: high) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03490772798017978, confidence: 0.24678063712736029 and uplift: 0.0004943350950055644.\
+\
+Rule: r = [(Rating: high) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03503478067528507, confidence: 0.24858180404144795 and uplift: 0.0009027870122997952.\
+\
+Rule: r = [(Rating: high) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03519359654416669, confidence: 0.25193871883722313 and uplift: 0.0016097036640483758.\
+\
+Rule: r = [(BinnedCompanion: 6-10) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.037448781882285676, confidence: 0.24778932336051504 and uplift: 0.0008765549267795436.\
+\
+Rule: r = [(BinnedCompanion: 6-10) \uc0\u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07546930089254518, confidence: 0.24884773048293496 and uplift: 0.0021281326430136888.\
+\
+Rule: r = [(BinnedCompanion: 6-10) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03833815074802274, confidence: 0.25220082074256395 and uplift: 0.0016516627072484316.\
+\
+Rule: r = [(BinnedCompanion: 6-10) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.037289966013404056, confidence: 0.2507668498385444 and uplift: 0.0013511530101031274.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07318235238064988, confidence: 0.24692644459001137 and uplift: 0.0011065774031624592.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Reschedule: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07527872184988724, confidence: 0.24497857971033896 and uplift: 0.00038113540543457947.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.036877044754311854, confidence: 0.24885962206354342 and uplift: 0.0007879388570101384.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Upgrade: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07661277514849284, confidence: 0.24554092595055488 and uplift: 0.0005744147400940647.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Upgrade: 1 \u8594  0)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.037289966013404056, confidence: 0.24827006445142924 and uplift: 0.0008378989492302605.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.0381475717053648, confidence: 0.246117597488192 and uplift: 0.0004808291185065955.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07426230028904487, confidence: 0.24228952370992535 and uplift: -0.000588047020873006.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.035892386367245815, confidence: 0.2455939961381471 and uplift: 0.00026815333769496935.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03713115014452244, confidence: 0.24388106408283153 and uplift: -9.320120514534624e-05.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Reschedule: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.07559635358765047, confidence: 0.24285631477059777 and uplift: -0.0003776300921903841.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (Upgrade: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03846520344312804, confidence: 0.24491243615368954 and uplift: 9.018731731640084e-05.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Upgrade: 1 \u8594  0)  \u8743  (CancellationFee: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03932280913508878, confidence: 0.24271562193744797 and uplift: -0.00024310253151411249.\
+\
+Rule: r = [(BinnedCompanion: 1-5) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (CancellationFee: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.03929104596131246, confidence: 0.24039028814915267 and uplift: -0.0007249898325853016.\
+\
+Rule: r = [(BinnedCompanion: 11-15) \uc0\u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.059047740050185815, confidence: 0.24661617975011282 and uplift: 0.0010108116470659428.\
+\
+Rule: r = [(BinnedCompanion: 11-15) \uc0\u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.0613029253883048, confidence: 0.25076395357079034 and uplift: 0.002138175616604357.\
+\
+Rule: r = [(BinnedCompanion: 11-15) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 1 \u8594  0) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.030683225867928723, confidence: 0.25438733110216794 and uplift: 0.0015791861204367992.\
+\
+Rule: r = [(BinnedCompanion: 11-15) \uc0\u8743  (Reschedule: 0 \u8594  1)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.031127910300797257, confidence: 0.2504187470232839 and uplift: 0.0010301759650914039.\
+\
+Rule: r = [(BinnedCompanion: 11-15) \uc0\u8743  (Reschedule: 1 \u8594  0)  \u8743  (Upgrade: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.030175015087507542, confidence: 0.25113713315279523 and uplift: 0.0011089330446612186.\
+\
+Rule: r = [(BinnedCompanion: 11-15) \uc0\u8743  (Upgrade: 0 \u8594  1)  \u8743  (CancellationFee: 0 \u8594  1) ] \u8658  [NotCancelled: 0 \u8594  1] with support: 0.030619699520376076, confidence: 0.2471630215835156 and uplift: 0.0005726375232182473.\
+\
+max supp: 0.07921735539815139\
+max conf: 0.25981288273496317\
+max uplift: 0.0031889799710936723\
+===============================Finish================================\
+\
+[[[['BinnedDuration', ('1-9',)]], [['CancellationFee', ('0', '1')]], ['NotCancelled', ['0', '1']]], [0.10837594892481657, 0.0780421179684274, 0.0780421179684274], [0.5845468562617783, 0.42201992442459635, 0.24669042010223105], 0.0012174919437908938]\
+index: 0\
+(31483, 15)\
+\
+[31483 rows x 4 columns]\
+Duration == 25?\
+yes -> high == 0?\
+		yes -> low == 1?\
+				yes -> \{'1': 0.364641, '0': 0.431373\}\
+				no  -> \{'1': 0.303867, '0': 0.490066\}\
+		no  -> \{'1': 0.409722, '0': 0.371257\}\
+no  -> Duration == 18?\
+		yes -> high == 0?\
+				yes -> resort == 0?\
+						yes -> \{'1': 0.463768, '0': 0.324873\}\
+						no  -> \{'1': 0.440367, '0': 0.469388\}\
+				no  -> \{'1': 0.40146, '0': 0.41958\}\
+		no  -> Companion == 2?\
+				yes -> hotel == 0?\
+						yes -> \{'1': 0.370732, '0': 0.445283\}\
+						no  -> \{'1': 0.436823, '0': 0.405303\}\
+				no  -> Duration == 11?\
+						yes -> \{'1': 0.400424, '0': 0.45805\}\
+						no  -> \{'1': 0.420684, '0': 0.421641\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('20-28',)]], [['CancellationFee', ('1', '0')]], ['NotCancelled', ['0', '1']]], [0.09929168122478799, 0.06972016643903059, 0.06972016643903059], [0.5887005649717514, 0.42530517341600466, 0.25037739587541064], 0.002362242189085678]\
+index: 1\
+(31483, 15)\
+[31483 rows x 4 columns]\
+Duration == 10?\
+yes -> high == 0?\
+		yes -> hotel == 0?\
+				yes -> middle == 1?\
+						yes -> \{'1': 0.361702, '0': 0.473214\}\
+						no  -> \{'1': 0.390909, '0': 0.51087\}\
+				no  -> \{'1': 0.447368, '0': 0.468254\}\
+		no  -> \{'1': 0.432624, '0': 0.437086\}\
+no  -> Companion == 7?\
+		yes -> F == 0?\
+				yes -> 40-49 == 0?\
+						yes -> \{'1': 0.359133, '0': 0.454829\}\
+						no  -> \{'1': 0.349515, '0': 0.392857\}\
+				no  -> hostel == 0?\
+						yes -> \{'1': 0.377622, '0': 0.386029\}\
+						no  -> \{'1': 0.473684, '0': 0.413534\}\
+		no  -> 18-29 == 0?\
+				yes -> Companion == 13?\
+						yes -> \{'1': 0.358491, '0': 0.406627\}\
+						no  -> \{'1': 0.420051, '0': 0.408524\}\
+				no  -> Companion == 4?\
+						yes -> \{'1': 0.391534, '0': 0.464286\}\
+						no  -> \{'1': 0.468191, '0': 0.422277\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('20-28',)]], [['Reschedule', ('0', '1')]], ['NotCancelled', ['0', '1']]], [0.09748118031953752, 0.06968840326525426, 0.06968840326525426], [0.5841263799010278, 0.4205482077822503, 0.24565330218571113], 0.0007801125587759417]\
+index: 2\
+(31483, 15)\
+[31483 rows x 4 columns]\
+high == 0?\
+yes -> Companion == 5?\
+		yes -> hostel == 0?\
+				yes -> low == 1?\
+						yes -> \{'1': 0.430052, '0': 0.440529\}\
+						no  -> \{'1': 0.350254, '0': 0.488506\}\
+				no  -> M == 0?\
+						yes -> \{'1': 0.489362, '0': 0.347458\}\
+						no  -> \{'1': 0.345794, '0': 0.5\}\
+		no  -> Duration == 5?\
+				yes -> low == 1?\
+						yes -> \{'1': 0.395683, '0': 0.402367\}\
+						no  -> \{'1': 0.35625, '0': 0.482759\}\
+				no  -> low == 0?\
+						yes -> \{'1': 0.425951, '0': 0.40448\}\
+						no  -> \{'1': 0.42234, '0': 0.420363\}\
+no  -> Companion == 5?\
+		yes -> hostel == 0?\
+				yes -> \{'1': 0.543353, '0': 0.409938\}\
+				no  -> \{'1': 0.380952, '0': 0.383333\}\
+		no  -> Duration == 9?\
+				yes -> \{'1': 0.435897, '0': 0.356643\}\
+				no  -> 18-29 == 0?\
+						yes -> \{'1': 0.393343, '0': 0.429016\}\
+						no  -> \{'1': 0.443814, '0': 0.439427\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('1-9',)]], [['Reschedule', ('0', '1')], ['CancellationFee', ('0', '1')]], ['NotCancelled', ['0', '1']]], [0.053679763681987104, 0.03849696661690436, 0.03849696661690436], [0.5835635359116023, 0.42127215849843586, 0.24583907039446018], 0.00044481691743069457]\
+index: 3\
+(31483, 15)\
+\
+[31483 rows x 4 columns]\
+Duration == 9?\
+yes -> low == 0?\
+		yes -> resort == 0?\
+				yes -> high == 0?\
+						yes -> \{'1': 0.557377, '0': 0.375\}\
+						no  -> \{'1': 0.510204, '0': 0.403846\}\
+				no  -> \{'1': 0.529412, '0': 0.371795\}\
+		no  -> \{'1': 0.404494, '0': 0.432692\}\
+no  -> 40-49 == 0?\
+		yes -> Duration == 7?\
+				yes -> F == 1?\
+						yes -> \{'1': 0.444444, '0': 0.414634\}\
+						no  -> \{'1': 0.537313, '0': 0.354582\}\
+				no  -> M == 0?\
+						yes -> \{'1': 0.405867, '0': 0.407857\}\
+						no  -> \{'1': 0.400815, '0': 0.441925\}\
+		no  -> high == 0?\
+				yes -> Companion == 2?\
+						yes -> \{'1': 0.361446, '0': 0.443182\}\
+						no  -> \{'1': 0.45494, '0': 0.404383\}\
+				no  -> resort == 0?\
+						yes -> \{'1': 0.337838, '0': 0.418236\}\
+						no  -> \{'1': 0.440252, '0': 0.417457\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('20-28',)]], [['Reschedule', ('0', '1')], ['CancellationFee', ('1', '0')]], ['NotCancelled', ['0', '1']]], [0.04847060318267001, 0.03478067528507448, 0.03478067528507448], [0.5844504021447721, 0.43486894360603656, 0.2541593289708203], 0.0016022237955519228]\
+index: 4\
+(31483, 15)\
+[31483 rows x 4 columns]\
+hostel == 0?\
+yes -> Duration == 19?\
+		yes -> low == 0?\
+				yes -> \{'1': 0.525253, '0': 0.375862\}\
+				no  -> \{'1': 0.436364, '0': 0.401316\}\
+		no  -> high == 0?\
+				yes -> Duration == 8?\
+						yes -> \{'1': 0.287037, '0': 0.407285\}\
+						no  -> \{'1': 0.430539, '0': 0.417234\}\
+				no  -> M == 0?\
+						yes -> \{'1': 0.368175, '0': 0.420367\}\
+						no  -> \{'1': 0.423313, '0': 0.418816\}\
+no  -> 50-65 == 0?\
+		yes -> low == 0?\
+				yes -> 40-49 == 0?\
+						yes -> \{'1': 0.456911, '0': 0.450024\}\
+						no  -> \{'1': 0.460227, '0': 0.405354\}\
+				no  -> 40-49 == 0?\
+						yes -> \{'1': 0.524691, '0': 0.39303\}\
+						no  -> \{'1': 0.441176, '0': 0.430502\}\
+		no  -> middle == 0?\
+				yes -> M == 1?\
+						yes -> \{'1': 0.373206, '0': 0.416159\}\
+						no  -> \{'1': 0.408046, '0': 0.407339\}\
+				no  -> F == 0?\
+						yes -> \{'1': 0.425532, '0': 0.35\}\
+						no  -> \{'1': 0.384615, '0': 0.407018\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('1-9',)]], [['Reschedule', ('0', '1')], ['Upgrade', ('0', '1')]], ['NotCancelled', ['0', '1']]], [0.05428326398373726, 0.039831019915509955, 0.039831019915509955], [0.5852739726027397, 0.4279863481228669, 0.2504892701856094], 0.0012298744248887133]\
+index: 5\
+(31483, 15)\
+[31483 rows x 4 columns]\
+Duration == 18?\
+yes -> F == 1?\
+		yes -> \{'1': 0.425, '0': 0.444767\}\
+		no  -> \{'1': 0.597826, '0': 0.354651\}\
+no  -> Companion == 1?\
+		yes -> low == 0?\
+				yes -> 40-49 == 0?\
+						yes -> \{'1': 0.513889, '0': 0.395007\}\
+						no  -> \{'1': 0.419355, '0': 0.441176\}\
+				no  -> F == 1?\
+						yes -> \{'1': 0.472222, '0': 0.4\}\
+						no  -> \{'1': 0.35443, '0': 0.413613\}\
+		no  -> Duration == 5?\
+				yes -> 50-65 == 0?\
+						yes -> \{'1': 0.345455, '0': 0.44921\}\
+						no  -> \{'1': 0.333333, '0': 0.365169\}\
+				no  -> Duration == 15?\
+						yes -> \{'1': 0.365297, '0': 0.438623\}\
+						no  -> \{'1': 0.422301, '0': 0.415514\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('10-19',)]], [['Reschedule', ('0', '1')], ['Upgrade', ('1', '0')]], ['NotCancelled', ['0', '1']]], [0.044468443286853225, 0.030937331258139314, 0.030937331258139314], [0.5797101449275363, 0.42182763100909487, 0.24453775710672168], 0.00011795981599479338]\
+index: 6\
+(31483, 15)\
+\
+[31483 rows x 4 columns]\
+high == 0?\
+yes -> 40-49 == 0?\
+		yes -> Duration == 9?\
+				yes -> M == 0?\
+						yes -> \{'1': 0.352941, '0': 0.442623\}\
+						no  -> \{'1': 0.396552, '0': 0.451807\}\
+				no  -> Duration == 13?\
+						yes -> \{'1': 0.429825, '0': 0.351899\}\
+						no  -> \{'1': 0.431583, '0': 0.422427\}\
+		no  -> resort == 0?\
+				yes -> Companion == 3?\
+						yes -> \{'1': 0.454545, '0': 0.396226\}\
+						no  -> \{'1': 0.37594, '0': 0.434647\}\
+				no  -> low == 1?\
+						yes -> \{'1': 0.477011, '0': 0.38716\}\
+						no  -> \{'1': 0.404255, '0': 0.426531\}\
+no  -> Duration == 15?\
+		yes -> \{'1': 0.440476, '0': 0.350598\}\
+		no  -> Duration == 19?\
+				yes -> \{'1': 0.5, '0': 0.402597\}\
+				no  -> Duration == 16?\
+						yes -> \{'1': 0.471264, '0': 0.404444\}\
+						no  -> \{'1': 0.377203, '0': 0.420667\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['Accomodation', ('hostel',)]], [['Reschedule', ('1', '0')]], ['NotCancelled', ['0', '1']]], [0.09900581266080107, 0.07140361464917575, 0.07140361464917575], [0.5772222222222222, 0.4248724248724249, 0.24524580524580525], 0.0003592762542036776]\
+index: 7\
+(31483, 15)\
+[31483 rows x 4 columns]\
+Duration == 8?\
+yes -> 30-39 == 0?\
+		yes -> 50-65 == 0?\
+				yes -> 18-29 == 0?\
+						yes -> \{'1': 0.41129, '0': 0.373016\}\
+						no  -> \{'1': 0.483607, '0': 0.286957\}\
+				no  -> \{'1': 0.359375, '0': 0.34127\}\
+		no  -> \{'1': 0.419048, '0': 0.455357\}\
+no  -> Companion == 12?\
+		yes -> 18-29 == 0?\
+				yes -> F == 1?\
+						yes -> \{'1': 0.453521, '0': 0.353887\}\
+						no  -> \{'1': 0.406832, '0': 0.404531\}\
+				no  -> \{'1': 0.43578, '0': 0.484694\}\
+		no  -> Duration == 17?\
+				yes -> 50-65 == 0?\
+						yes -> \{'1': 0.486928, '0': 0.410714\}\
+						no  -> \{'1': 0.368421, '0': 0.432\}\
+				no  -> Duration == 27?\
+						yes -> \{'1': 0.450602, '0': 0.418093\}\
+						no  -> \{'1': 0.410434, '0': 0.426529\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('1-9',)]], [['Reschedule', ('1', '0')], ['CancellationFee', ('0', '1')]], ['NotCancelled', ['0', '1']]], [0.054696185242829466, 0.03954515135152305, 0.03954515135152305], [0.5855151309078545, 0.4227504244482173, 0.247526770112149], 0.0007721309374013607]\
+index: 8\
+(31483, 15)\
+\
+[31483 rows x 4 columns]\
+Duration == 11?\
+yes -> 30-39 == 0?\
+		yes -> low == 0?\
+				yes -> high == 1?\
+						yes -> \{'1': 0.362069, '0': 0.420455\}\
+						no  -> \{'1': 0.245614, '0': 0.461078\}\
+				no  -> \{'1': 0.366667, '0': 0.415663\}\
+		no  -> \{'1': 0.432836, '0': 0.445026\}\
+no  -> Companion == 5?\
+		yes -> low == 0?\
+				yes -> 50-65 == 0?\
+						yes -> \{'1': 0.483254, '0': 0.428336\}\
+						no  -> \{'1': 0.405405, '0': 0.425532\}\
+				no  -> F == 1?\
+						yes -> \{'1': 0.484536, '0': 0.341121\}\
+						no  -> \{'1': 0.523077, '0': 0.419811\}\
+		no  -> Companion == 13?\
+				yes -> low == 0?\
+						yes -> \{'1': 0.466667, '0': 0.38007\}\
+						no  -> \{'1': 0.394161, '0': 0.425791\}\
+				no  -> Duration == 2?\
+						yes -> \{'1': 0.378151, '0': 0.445545\}\
+						no  -> \{'1': 0.420441, '0': 0.420485\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('10-19',)]], [['Reschedule', ('1', '0')], ['CancellationFee', ('1', '0')]], ['NotCancelled', ['0', '1']]], [0.044468443286853225, 0.030937331258139314, 0.030937331258139314], [0.5907172995780591, 0.42073434125269976, 0.2485350539045484], 0.0008620648848235019]\
+index: 9\
+(31483, 15)\
+\
+[31483 rows x 4 columns]\
+Duration == 15?\
+yes -> 18-29 == 0?\
+		yes -> middle == 0?\
+				yes -> low == 0?\
+						yes -> \{'1': 0.517241, '0': 0.315789\}\
+						no  -> \{'1': 0.592593, '0': 0.439024\}\
+				no  -> \{'1': 0.435484, '0': 0.424419\}\
+		no  -> \{'1': 0.42, '0': 0.461957\}\
+no  -> middle == 0?\
+		yes -> Companion == 10?\
+				yes -> resort == 0?\
+						yes -> \{'1': 0.502618, '0': 0.402397\}\
+						no  -> \{'1': 0.447154, '0': 0.424051\}\
+				no  -> Duration == 9?\
+						yes -> \{'1': 0.348148, '0': 0.457002\}\
+						no  -> \{'1': 0.41806, '0': 0.415298\}\
+		no  -> 30-39 == 0?\
+				yes -> Duration == 25?\
+						yes -> \{'1': 0.516667, '0': 0.395349\}\
+						no  -> \{'1': 0.379798, '0': 0.416931\}\
+				no  -> hostel == 0?\
+						yes -> \{'1': 0.463636, '0': 0.412371\}\
+						no  -> \{'1': 0.436782, '0': 0.481262\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('1-9',)]], [['Reschedule', ('1', '0')], ['Upgrade', ('0', '1')]], ['NotCancelled', ['0', '1']]], [0.054346790331289904, 0.03938633548264143, 0.03938633548264143], [0.5924515235457064, 0.4245121533721328, 0.2515028720289887], 0.0015561127890836232]\
+index: 10\
+(31483, 15)\
+[31483 rows x 4 columns]\
+50-65 == 0?\
+yes -> Companion == 11?\
+		yes -> hostel == 0?\
+				yes -> 30-39 == 0?\
+						yes -> \{'1': 0.366197, '0': 0.471491\}\
+						no  -> \{'1': 0.413333, '0': 0.413793\}\
+				no  -> \{'1': 0.444444, '0': 0.42236\}\
+		no  -> Duration == 2?\
+				yes -> 18-29 == 0?\
+						yes -> \{'1': 0.303922, '0': 0.464497\}\
+						no  -> \{'1': 0.492754, '0': 0.407143\}\
+				no  -> F == 1?\
+						yes -> \{'1': 0.418063, '0': 0.415316\}\
+						no  -> \{'1': 0.466972, '0': 0.434522\}\
+no  -> Companion == 5?\
+		yes -> F == 1?\
+				yes -> \{'1': 0.301205, '0': 0.449438\}\
+				no  -> \{'1': 0.333333, '0': 0.502646\}\
+		no  -> Companion == 12?\
+				yes -> F == 1?\
+						yes -> \{'1': 0.421875, '0': 0.358696\}\
+						no  -> \{'1': 0.473684, '0': 0.373684\}\
+				no  -> hotel == 0?\
+						yes -> \{'1': 0.39388, '0': 0.403491\}\
+						no  -> \{'1': 0.350101, '0': 0.403602\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['Accomodation', ('hostel',)]], [['Reschedule', ('1', '0')], ['Upgrade', ('1', '0')]], ['NotCancelled', ['0', '1']]], [0.048248260966235745, 0.035225359717943015, 0.035225359717943015], [0.5680628272251309, 0.4211925560197493, 0.23926383417875813], -0.0009125910873547735]\
+index: 11\
+(31483, 15)\
+[31483 rows x 4 columns]\
+50-65 == 0?\
+yes -> Duration == 4?\
+		yes -> middle == 0?\
+				yes -> F == 1?\
+						yes -> \{'1': 0.53125, '0': 0.388889\}\
+						no  -> \{'1': 0.517857, '0': 0.418079\}\
+				no  -> \{'1': 0.4, '0': 0.442529\}\
+		no  -> hotel == 0?\
+				yes -> Duration == 12?\
+						yes -> \{'1': 0.456, '0': 0.393491\}\
+						no  -> \{'1': 0.406493, '0': 0.4366\}\
+				no  -> 30-39 == 0?\
+						yes -> \{'1': 0.437107, '0': 0.410733\}\
+						no  -> \{'1': 0.382114, '0': 0.429945\}\
+no  -> hotel == 0?\
+		yes -> Companion == 6?\
+				yes -> \{'1': 0.309859, '0': 0.435252\}\
+				no  -> Companion == 10?\
+						yes -> \{'1': 0.362745, '0': 0.40613\}\
+						no  -> \{'1': 0.437562, '0': 0.389131\}\
+		no  -> M == 1?\
+				yes -> low == 0?\
+						yes -> \{'1': 0.359447, '0': 0.426573\}\
+						no  -> \{'1': 0.386139, '0': 0.397112\}\
+				no  -> high == 0?\
+						yes -> \{'1': 0.396341, '0': 0.400335\}\
+						no  -> \{'1': 0.419355, '0': 0.368627\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('1-9',)]], [['Upgrade', ('0', '1')]], ['NotCancelled', ['0', '1']]], [0.10863005431502716, 0.07921735539815139, 0.07921735539815139], [0.5888429752066116, 0.42625192274824814, 0.2509954503786172], 0.002784714522816284]\
+index: 12\
+(31483, 15)\
+[31483 rows x 4 columns]\
+50-65 == 0?\
+yes -> Companion == 2?\
+		yes -> F == 1?\
+				yes -> 40-49 == 0?\
+						yes -> \{'1': 0.330612, '0': 0.466102\}\
+						no  -> \{'1': 0.42268, '0': 0.423423\}\
+				no  -> middle == 0?\
+						yes -> \{'1': 0.425532, '0': 0.420455\}\
+						no  -> \{'1': 0.524272, '0': 0.413793\}\
+		no  -> Duration == 4?\
+				yes -> hostel == 0?\
+						yes -> \{'1': 0.418103, '0': 0.415929\}\
+						no  -> \{'1': 0.303922, '0': 0.472222\}\
+				no  -> Duration == 13?\
+						yes -> \{'1': 0.400641, '0': 0.441935\}\
+						no  -> \{'1': 0.440773, '0': 0.414308\}\
+no  -> Companion == 5?\
+		yes -> F == 1?\
+				yes -> \{'1': 0.356643, '0': 0.514286\}\
+				no  -> \{'1': 0.387097, '0': 0.5\}\
+		no  -> low == 0?\
+				yes -> Companion == 10?\
+						yes -> \{'1': 0.417989, '0': 0.339181\}\
+						no  -> \{'1': 0.389617, '0': 0.393925\}\
+				no  -> hostel == 0?\
+						yes -> \{'1': 0.383543, '0': 0.431138\}\
+						no  -> \{'1': 0.399457, '0': 0.434783\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('1-9',)]], [['Upgrade', ('0', '1')], ['CancellationFee', ('0', '1')]], ['NotCancelled', ['0', '1']]], [0.05364800050821078, 0.039513388177746724, 0.039513388177746724], [0.5897346368715084, 0.4322446143154969, 0.25490962066301476], 0.001999446539388973]\
+index: 13\
+(31483, 15)\
+\
+[31483 rows x 4 columns]\
+Duration == 11?\
+yes -> resort == 0?\
+		yes -> low == 0?\
+				yes -> F == 0?\
+						yes -> \{'1': 0.196078, '0': 0.427711\}\
+						no  -> \{'1': 0.326923, '0': 0.421384\}\
+				no  -> \{'1': 0.333333, '0': 0.43787\}\
+		no  -> \{'1': 0.443038, '0': 0.463964\}\
+no  -> Companion == 2?\
+		yes -> hotel == 0?\
+				yes -> middle == 0?\
+						yes -> \{'1': 0.34434, '0': 0.448276\}\
+						no  -> \{'1': 0.426087, '0': 0.451852\}\
+				no  -> middle == 0?\
+						yes -> \{'1': 0.41573, '0': 0.398467\}\
+						no  -> \{'1': 0.325581, '0': 0.433735\}\
+		no  -> 40-49 == 0?\
+				yes -> Duration == 4?\
+						yes -> \{'1': 0.36646, '0': 0.450467\}\
+						no  -> \{'1': 0.427058, '0': 0.418024\}\
+				no  -> high == 0?\
+						yes -> \{'1': 0.470975, '0': 0.397582\}\
+						no  -> \{'1': 0.413502, '0': 0.427206\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('1-9',)]], [['Upgrade', ('0', '1')], ['CancellationFee', ('1', '0')]], ['NotCancelled', ['0', '1']]], [0.05498205380681638, 0.03970396722040466, 0.03970396722040466], [0.5879755434782609, 0.42045072317524385, 0.2472147424647918], 0.0007879467975706878]\
+index: 14\
+(31483, 15)\
+\
+[31483 rows x 4 columns]\
+Companion == 9?\
+yes -> F == 1?\
+		yes -> 30-39 == 0?\
+				yes -> 18-29 == 0?\
+						yes -> \{'1': 0.258065, '0': 0.45245\}\
+						no  -> \{'1': 0.313725, '0': 0.416667\}\
+				no  -> \{'1': 0.351852, '0': 0.41573\}\
+		no  -> low == 0?\
+				yes -> resort == 0?\
+						yes -> \{'1': 0.38, '0': 0.414716\}\
+						no  -> \{'1': 0.384615, '0': 0.490683\}\
+				no  -> \{'1': 0.5, '0': 0.379487\}\
+no  -> Companion == 5?\
+		yes -> hotel == 0?\
+				yes -> 18-29 == 0?\
+						yes -> \{'1': 0.332, '0': 0.455696\}\
+						no  -> \{'1': 0.430556, '0': 0.432836\}\
+				no  -> F == 1?\
+						yes -> \{'1': 0.479452, '0': 0.412281\}\
+						no  -> \{'1': 0.493151, '0': 0.480583\}\
+		no  -> Duration == 23?\
+				yes -> M == 1?\
+						yes -> \{'1': 0.471698, '0': 0.42623\}\
+						no  -> \{'1': 0.559524, '0': 0.369427\}\
+				no  -> low == 0?\
+						yes -> \{'1': 0.432504, '0': 0.405192\}\
+						no  -> \{'1': 0.429074, '0': 0.426743\}\
+[[[['Rating', ('low',)]], [['Upgrade', ('1', '0')]], ['NotCancelled', ['0', '1']]], [0.09675062732268208, 0.07083187752120192, 0.07083187752120192], [0.5806328631338162, 0.42323021446194725, 0.2457413711877795], 0.0006437031117547676]\
+index: 15\
+(31483, 15)\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedCompanion', ('1-5',)]], [['Upgrade', ('1', '0')], ['CancellationFee', ('0', '1')]], ['NotCancelled', ['0', '1']]], [0.048565892703998984, 0.03932280913508878, 0.03932280913508878], [0.575028206092516, 0.4220934197067849, 0.24271562193744797], -0.00024310253151411249]\
+index: 16\
+(31483, 15)\
+\
+[31483 rows x 4 columns]\
+Companion == 13?\
+yes -> 40-49 == 0?\
+		yes -> resort == 0?\
+				yes -> M == 1?\
+						yes -> \{'1': 0.390625, '0': 0.444767\}\
+						no  -> \{'1': 0.432432, '0': 0.416928\}\
+				no  -> F == 1?\
+						yes -> \{'1': 0.340426, '0': 0.377049\}\
+						no  -> \{'1': 0.408163, '0': 0.372671\}\
+		no  -> F == 0?\
+				yes -> \{'1': 0.583333, '0': 0.358289\}\
+				no  -> \{'1': 0.507937, '0': 0.398601\}\
+no  -> 50-65 == 0?\
+		yes -> Duration == 12?\
+				yes -> F == 1?\
+						yes -> \{'1': 0.390805, '0': 0.451883\}\
+						no  -> \{'1': 0.547945, '0': 0.394191\}\
+				no  -> hotel == 0?\
+						yes -> \{'1': 0.4, '0': 0.43663\}\
+						no  -> \{'1': 0.402256, '0': 0.414732\}\
+		no  -> resort == 0?\
+				yes -> low == 0?\
+						yes -> \{'1': 0.370421, '0': 0.396311\}\
+						no  -> \{'1': 0.419048, '0': 0.407776\}\
+				no  -> low == 0?\
+						yes -> \{'1': 0.439883, '0': 0.389454\}\
+						no  -> \{'1': 0.416185, '0': 0.393881\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+[[[['BinnedDuration', ('20-28',)]], [['Upgrade', ('1', '0')], ['CancellationFee', ('1', '0')]], ['NotCancelled', ['0', '1']]], [0.04910586665819649, 0.035479465108153606, 0.035479465108153606], [0.5836164590411476, 0.4260106788710908, 0.24862684391646142], 0.0008100336159044333]\
+index: 17\
+(31483, 15)\
+\
+\
+[31483 rows x 4 columns]\
+Duration == 9?\
+yes -> 50-65 == 0?\
+		yes -> 18-29 == 0?\
+				yes -> 30-39 == 0?\
+						yes -> \{'1': 0.3, '0': 0.414201\}\
+						no  -> \{'1': 0.265306, '0': 0.45122\}\
+				no  -> \{'1': 0.393443, '0': 0.447514\}\
+		no  -> \{'1': 0.418919, '0': 0.441026\}\
+no  -> Companion == 2?\
+		yes -> 40-49 == 0?\
+				yes -> hostel == 0?\
+						yes -> \{'1': 0.477679, '0': 0.388646\}\
+						no  -> \{'1': 0.441441, '0': 0.401146\}\
+				no  -> \{'1': 0.395604, '0': 0.384106\}\
+		no  -> M == 0?\
+				yes -> low == 0?\
+						yes -> \{'1': 0.402192, '0': 0.408084\}\
+						no  -> \{'1': 0.457953, '0': 0.407241\}\
+				no  -> Duration == 27?\
+						yes -> \{'1': 0.5625, '0': 0.457143\}\
+						no  -> \{'1': 0.406715, '0': 0.429614\}\
+}
